@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     // Get weather
     $.ajax({
-        url: "http://api.openweathermap.org/data/2.5/weather?q=lasvegas&units=imperial&appid=bb66b68dfc67c1bf375e7e579026ca2f",
+        url: "https://api.openweathermap.org/data/2.5/weather?q=lasvegas&units=imperial&appid=bb66b68dfc67c1bf375e7e579026ca2f",
         success: function (data) {
             var temp = data.main.temp;
             $(".lv-weather").text(temp);
