@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>2021 LXG Vegas Draft</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/044f4c2fa6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="topper" id="#top">
+        <div class="container d-flex justify-content-around">
+            <div class="d-flex">
+                <p class="countdown">Countdown to the Draft: </p>
+                <p class="countdown" id="days"></p>
+                <p class="countdown">Days</p>
+                <p class="countdown" id="hours"></p>
+                <p class="countdown">Hours</p>
+                <p class="countdown" id="minutes"></p>
+                <p class="countdown">Hours</p>
+                <p class="countdown" id="seconds"></p>
+                <p class="countdown">Seconds</p>
+            </div>
+            <div>
+                <p class="mr-5">LV Current Weather: <span class="lv-weather"></span>&deg;</p>
+            </div>
+            <div>
+                <p>Current Time: <span class="lv-time"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="images/LXG Logo.png" class="header-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fromLeft ml-3" href="#dates">Dates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-3" href="#flight">Flight</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-3" href="#hotel">Hotel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-3" href="#location">Draft Location</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-12 position-relative header-div">
+            <h1 class="header text-center"><span>2021 LXG Draft</span><br /><span>The Post-Covid Pursuit of Liver
+                    Poisoning</span></h1>
+        </div>
+    </div>
+
+    <div class="row" id="dates">
+        <div class="col-12">
+            <div class="container section-container">
+                <h2 class="section-header">Dates</h2>
+                <p class="body-text">The dates for the draft this year are Friday, August 27<sup>th</sup> - Sunday,
+                    August 29<sup>th</sup>. The draft will be held Saturday afternoon/evening as usual. We would love
+                    for everyone to be in Vegas Friday evening so that we can meetup and discuss plans for the weekend
+                    but we understand that schedules can be hectic and ask that everyone do their best. If anyone wants
+                    to get to Vegas earlier that is always an option and people can meet up and make lodging
+                    arrangements together if they like. We will leave this up to everyone individually to decide.</p>
+                <div class="d-flex justify-content-center">
+                    <img src="images/calendar.png" class="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="flight">
+        <div class="col-12">
+            <div class="container section-container">
+                <h2 class="section-header">Flight</h2>
+                <p class="body-text">As of today, flights from Dallas to Las Vegas range in price from $180 for the
+                    least expensive Spirit/Frontier flights up to an average of $350 for major airlines. Keep in mind
+                    that the cheapest flight may not include carry-on or luggage costs so there may be additional fees
+                    included. Average flight time for direct flights is about 3 hours but Vegas is Pacific Time so you
+                    will gain two hours on the way there. We are having everyone book their own flights so they can
+                    travel to Vegas at whichever dates/times are most convenient. If you want to travel with other
+                    league members consider reaching out to to them to coordinate travel.</p>
+                <div class="d-flex justify-content-center">
+                    <img src="images/plane.png" class="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="hotel">
+        <div class="col-12">
+            <div class="container section-container">
+                <h2 class="section-header">Hotel</h2>
+                <p class="body-text">The plan is to stay on the strip. There are a number of hotels in the middle that
+                    will put us within walking distance of almost anywhere we will want to go. After getting input from
+                    some of the Vegas vetrans and checking prices at nearly twenty hotels we narrowed down the field to
+                    the choices below. We will discuss these options in the <strong>#league-news</strong> channel on
+                    Discord and take a vote as we normally do.</p>
+                <p class="body-text">A few items to discuss with the hotel that differ this year from the way we
+                    typically do things. Since we are staying in hotels we need to figure the room situation. After
+                    looking into it, hotels don't do block rentals with anything less than ten rooms so this isn't an
+                    option. We will need three or four rooms depending on whether people want to do two people per room
+                    or four (two beds, two per room as a way to save money.) There is also the option of a hybrid (two
+                    rooms with double-occupancy, one room with 4 people.) Because there are multiple options we want to
+                    determine which hotel we will all stay at, have everyone decide whom they are lodging with and then
+                    individual groups will book their rooms. Once all of the rooms are booked we will reach out to the
+                    hotel and see if we are able to get the rooms adjacent, or at least on the same floor. We will reach
+                    out to everyone to see what their preferences are and try to help coordinate to make this as
+                    seamless as possible.</p>
+                <p class="body-text">Hotels in Vegas include resort fees and taxes so there may be some slight price
+                    differences from what is posted below but I tried to calculate everything directly through the
+                    hotels websites to get as accurate as possible. A number of these prices include some current
+                    discounts and promotions that are valid through mid June so the sooner we can make a decision the
+                    more money we can possibly save. Another note, we did look into booking through third-party groups
+                    and the prices aren't considerably lower and there is less opportunity for saving once we are there.
+                    Once we decide on a hotel I would also recommend signing up for the rewards program through the
+                    hotel. These are free and can offer discounts on the rooms or restaurants, etc. at the hotel,
+                    especially once we start gambling in the casinos. Another note, many of the hotels only require
+                    thirty percent of the room cost to reserve and the rest is paid once you check in or out. Feel free
+                    to reach out with any questions. It
+                    would be preferable that we discuss this in Discord so everyone has access to all of the questions
+                    and discussion that we cover.</p>
+                <p class="body-text">With all that said, on to the hotels!</p>
+                <div class="row mb-3">
+                    <div class="col-lg-6 col-md-12 hotel-container">
+                        <div class="hotel-card">
+                            <div class="hotel-car-title">
+                                <h4><strong>The LINQ</strong></h4>
+                            </div>
+                            <div>
+                                <img src="images/linq-hotel.jpeg" class="hotel-card-img ht1-lg">
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <img src="images/linq-hotel.jpeg" class="hotel-img-thumb ht1">
+                                <img src="images/linq-casino.jpg" class="hotel-img-thumb ht1">
+                                <img src="images/linq-pool.jpg" class="hotel-img-thumb ht1">
+                                <img src="images/linq-room.jpg" class="hotel-img-thumb ht1">
+                            </div>
+                            <div class="hotel-price">
+                                <p><u><strong>Prices</strong></u></p>
+                                <p>2 per room: <strong>$207.15</strong></p>
+                                <p>4 per room: <strong>$103.58</strong></p>
+                            </div>
+                            <div class="hotel-details">
+                                <p><u><strong>Notes</strong></u></p>
+                                <p>Location and rooms look good, but that is really the case for all of these spots. This place was remodeled recently.  The
+                                    pool here is on the small side. The casino looks a little crappy. It looks like to be on the small side and has an airport vibe.</p>
+                            </div>
+                            <div class="text-center">
+                                <a href="https://www.caesars.com/linq" class="hotel-link" target="_blank"><strong>The LINQ
+                                    website</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 hotel-container">
+                        <div class="hotel-card">
+                            <div class="hotel-car-title">
+                                <h4><strong>The Mirage</strong></h4>
+                            </div>
+                            <div>
+                                <img src="images/mirage-hotel.jpg" class="hotel-card-img ht2-lg">
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <img src="images/mirage-hotel.jpg" class="hotel-img-thumb ht2">
+                                <img src="images/mirage-casino.jpg" class="hotel-img-thumb ht2">
+                                <img src="images/mirage-pool.jpg" class="hotel-img-thumb ht2">
+                                <img src="images/mirage-room.jpg" class="hotel-img-thumb ht2">
+                            </div>
+                            <div class="hotel-price">
+                                <p><u><strong>Prices</strong></u></p>
+                                <p>2 per room: <strong>$261.91</strong></p>
+                                <p>4 per room: <strong>$130.96</strong></p>
+                            </div>
+                            <div class="hotel-details">
+                                <p><u><strong>Notes</strong></u></p>
+                                <p>This hotel also seems a little older but still looks decent. The pool is dope though. Casino is decent from
+                                    what I can tell and we figure that is where we will likely spend our drunken nights after being out and about on the town during the daytime hours.</p>
+                            </div>
+                            <div class="text-center">
+                                <a href="https://mirage.mgmresorts.com/en.html" class="hotel-link" target="_blank"><strong>The
+                                    Mirage website</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 hotel-container">
+                        <div class="hotel-card">
+                            <div class="hotel-car-title">
+                                <h4><strong>The Cromwell</strong></h4>
+                            </div>
+                            <div>
+                                <img src="images/cromwell-hotel.jpg" class="hotel-card-img ht3-lg">
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <img src="images/cromwell-hotel.jpg" class="hotel-img-thumb ht3">
+                                <img src="images/cromwell-casino.jpg" class="hotel-img-thumb ht3">
+                                <img src="images/cromwell-pool.jpg" class="hotel-img-thumb ht3">
+                                <img src="images/cromwell-room.jpg" class="hotel-img-thumb ht3">
+                            </div>
+                            <div class="hotel-price">
+                                <p><u><strong>Prices</strong></u></p>
+                                <p>2 per room: <strong>$286.91</strong></p>
+                                <p>4 per room: <strong>$143.46</strong></p>
+                            </div>
+                            <div class="hotel-details">
+                                <p><u><strong>Notes</strong></u></p>
+                                <p>This one is interesting, it's a 21+ hotel, which is good for shenanigans. It's super
+                                    swanky though and may seem more like a spot for couples. The pool is on the roof and
+                                    looks dope, though it's on the small side. This is a newer spot and looks it, for
+                                    what that's worth.</p>
+                            </div>
+                            <div class="text-center">
+                                <a href="https://www.caesars.com/cromwell" class="hotel-link" target="_blank"><strong>The
+                                    Cromwell website</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 hotel-container">
+                        <div class="hotel-card">
+                            <div class="hotel-car-title">
+                                <h4>MGM Grand</h4>
+                            </div>
+                            <div>
+                                <img src="images/mgm-hotel.jpg" class="hotel-card-img ht4-lg">
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <img src="images/mgm-hotel.jpg" class="hotel-img-thumb ht4">
+                                <img src="images/mgm-casino.jpg" class="hotel-img-thumb ht4">
+                                <img src="images/mgm-pool.jpg" class="hotel-img-thumb ht4">
+                                <img src="images/mgm-room.jpg" class="hotel-img-thumb ht4">
+                            </div>
+                            <div class="hotel-price">
+                                <p><u><strong>Prices</strong></u></p>
+                                <p>2 per room: <strong>$273.36</strong></p>
+                                <p>4 per room: <strong>$136.68</strong></p>
+                            </div>
+                            <div class="hotel-details">
+                                <p><u><strong>Notes</strong></u></p>
+                                <p>MGM Grand seems to be the gold standard when it comes to the actual casino. The other
+                                    amenities are dope as well. This one seems like the best bang for the buck. They
+                                    have a promotion going on at the moment which make it more affordable as it was $320
+                                    per person a couple weeks ago when I checked.</p>
+                            </div>
+                            <div class="text-center">
+                                <a href="https://mgmgrand.mgmresorts.com/en.html" class="hotel-link" target="_blank"><strong>The
+                                    MGM Grand website</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <img src="images/hotel.png" class="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="location">
+        <div class="col-12">
+            <div class="container section-container">
+                <h2 class="section-header">Draft Location</h2>
+                <p class="body-text">The actual location of the draft has not been determined yet. One option is renting
+                    a meeting room at the hotel and doing a boardroom style draft. A few requests have been sent out to
+                    determine what type of cost is involved in doing this. The idea of having everyone rock suits in the
+                    boardroom has been introduced and will be discussed further in the <strong>#league-news</strong>
+                    channel on Discord. Once we determine which hotel we are staying at we will also contact them
+                    directly to confirm their pricing. The fallback plan is simply to draft in one of the hotel rooms.
+                    This would present a free option if the boardroom option is too expensive.</p>
+                <div class="d-flex justify-content-center">
+                    <img src="images/location.png" class="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="position-relative">
+        <div class="d-flex">
+            <p class="why"></p>
+        </div>
+        <img src="images/jada.png" class="jada">
+
+        <button class="top-button">
+            <i class="fas fa-angle-double-up"></i>
+        </button>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
