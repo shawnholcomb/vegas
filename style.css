@@ -5,6 +5,14 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    color: #019fb6;
+}
+
+a:hover {
+    color: #00778a;
+}
+
 .topper {
     min-height: 40px;
     font-family: 'Roboto', sans-serif;
