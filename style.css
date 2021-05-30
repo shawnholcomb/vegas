@@ -184,6 +184,10 @@ footer {
     transition: opacity .5s ease-in-out;
 }
 
+i {
+    padding: 0;
+}
+
 .top-button {
     position: fixed;
     right: 20px;
