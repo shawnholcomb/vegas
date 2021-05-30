@@ -88,9 +88,10 @@ a:hover {
     color: #fff;
     background: rgba(0, 0, 0, .55);
     padding: 10px 0;
-    width: 100%;
     position: absolute;
     top: 35%;
+    left: 0;
+    right: 0;
 }
 
 .header span:first-of-type {
@@ -152,15 +153,6 @@ a:hover {
 .hotel-link:hover {
     color:#e6e6e6;
 }
-
-
-
-
-
-
-
-
-
 
 footer {
     background-color: #000;
@@ -265,5 +257,15 @@ footer {
 
     .top-button {
         display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .header span:first-of-type {
+        font-size: 50px;
+    }
+
+    .header span:last-of-type {
+        font-size: 25px;
     }
 }
