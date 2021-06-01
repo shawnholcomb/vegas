@@ -154,6 +154,11 @@ a:hover {
     color:#e6e6e6;
 }
 
+.hotel-poll {
+    height: 1185px; 
+    width: 100%;
+}
+
 footer {
     background-color: #000;
     color: #019fb6;
